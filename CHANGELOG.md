@@ -1,3 +1,14 @@
+### 2.0.0rc: 2026-10-30
+
+* Change styles to one built from WordPress' own stylesheets
+* Add dark editor interface for WordPress 7
+* Add dark Yoast SEO and ActivityPub screens
+* Remove styling of the editor canvas
+* Remove GitHub updater
+* Remove gulp and Sass toolchain
+* Change main file name
+* Change text domain to the plugin slug
+
 ### 1.0.9: 2025-02-21
 
 * Fix: Block styles not currently covered #1

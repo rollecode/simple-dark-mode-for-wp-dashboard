@@ -1,33 +1,29 @@
 # Simple Dark Mode for WP Dashboard
 
-This WordPress plugin enables dark mode to WP-Admin only, for all users. To use, just install and activate.
+Dark mode for wp-admin, for all users. To use, just install and activate. There are no settings.
 
-The theme tries to respect the original WordPress colors as much as possible.
+## How this is different from other dark mode plugins
 
-![](https://i.imgur.com/n9EJEai.png "Screenshot")
-
-## How this is different from all other Dark Mode plugins
-
-- Fully open source
-- No ads or promoting pro versions
-- Not trying to affect site front-end, this is only for wp-admin
-- No modifying of original WordPress colors, let's keep the brand blue
-- Support for Gutenberg editor and blocks
-- Support for many plugins
+- Fully open source, no ads or pro versions
+- Only for wp-admin: the site's front end and the editor canvas belong to your theme
+- The admin colour scheme stays yours
+- Covers the block editor and the site editor
 
 ## Supported plugins
 
-- Gutenberg editor
 - Yoast SEO
-- Advanced Custom Fields and Advanced Custom Field Pro
-- Simple History
-- Instant Images
 - ActivityPub
+- Advanced Custom Fields
+- Koko Analytics
+- Simple History
 
 ## Development
 
-1. Fork this repository
-2. Run `npm install`
-3. Run `gulp`
-4. Start editing assets/scss/
-5. Commit and send a PR
+`assets/css/` is built, don't edit it. `bin/build.mjs` reads WordPress' stylesheets and repeats every colour declaration with its dark counterpart under the same selector. `src/` holds what the build can't know.
+
+```sh
+npm install
+YOAST_VERSION=2850 node bin/build.mjs /path/to/wordpress /path/to/plugins
+```
+
+Run it for each new WordPress release.

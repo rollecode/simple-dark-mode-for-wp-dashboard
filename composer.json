@@ -1,18 +1,18 @@
 {
-  "name": "ronilaukkarinen/simple-dark-mode-for-wp-dashboard",
+  "name": "rollecode/simple-dark-mode-for-wp-dashboard",
   "type": "wordpress-plugin",
-  "description": "The simplest way to make your WordPress Dashboard dark. No settings, just activate the plugin and enjoy the darkness.",
-  "homepage": "https://github.com/ronilaukkarinen/simple-dark-mode-for-wp-dashboard",
+  "description": "The simplest way to make your WordPress dashboard dark. No settings: activate and enjoy the darkness.",
+  "homepage": "https://github.com/rollecode/simple-dark-mode-for-wp-dashboard",
   "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Roni Laukkarinen",
       "email": "roni@dude.fi",
-      "homepage": "https://github.com/ronilaukkarinen"
+      "homepage": "https://github.com/rollecode"
     }
   ],
   "require": {
-    "php": ">=8.3",
+    "php": ">=8.0",
     "composer/installers": "^2.0"
   },
   "require-dev": {
