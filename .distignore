@@ -1,0 +1,10 @@
+.distignore
+.editorconfig
+.git
+.gitignore
+bin
+composer.json
+node_modules
+package.json
+phpcs.xml
+src
