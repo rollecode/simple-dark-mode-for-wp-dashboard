@@ -1,0 +1,59 @@
+/* activitypub/assets/css/activitypub-admin.css */
+.activitypub-settings-header{background:#202020;border-bottom:1px solid #474749}
+.activitypub-settings-tab.active{box-shadow:inset 0 -3px #3582c4}
+.activitypub-settings-tab{color:inherit}
+summary{color:#67b3f7}
+.activitypub-site-block-details summary{color:inherit}
+.activitypub-settings-accordion{border:1px solid #4b4a4d}
+.activitypub-settings-accordion-heading{border-top:1px solid #4b4a4d;color:inherit}
+.activitypub-settings-accordion-heading:first-child{border-top:none}
+.activitypub-settings-accordion-panel{background:#202020}
+.activitypub-settings-accordion-trigger{background:#202020;border:0;color:#c2cbd1}
+.activitypub-settings-accordion-trigger .icon,.activitypub-settings-accordion-viewed .icon{border:solid #50575e medium;border-width:0 2px 2px 0}
+.activitypub-settings-accordion-trigger:active,.activitypub-settings-accordion-trigger:hover{background:#161616}
+.activitypub-settings-accordion-trigger:focus{color:#ccd4d9;border:none;box-shadow:none;outline-offset:-1px;outline:2px solid #2271b1;background-color:#161616}
+.settings_page_activitypub .plugin-recommendations{border-bottom:none}
+.contextual-help-tabs-wrap .activitypub-block-screenshot img{border:1px solid #474747;border-radius:4px;box-shadow:0 1px 3px rgb(255 255 255 / 0.14)}
+.contextual-help-tabs-wrap .activitypub-block-screenshot figcaption{color:#b8b8b8}
+.contextual-help-tabs-wrap blockquote{border-left:4px solid #3582c4;background-color:#161616}
+.contextual-help-tabs-wrap blockquote cite{color:#b0b8c0}
+.plugin-list .plugin-card{border-radius:4px;box-shadow:0 1px 3px rgb(255 255 255 / 0.14)}
+.rtl .contextual-help-tabs-wrap blockquote{border-left:none;border-right:4px solid #3582c4}
+#activitypub-follow-form .highlight{border-color:#3582c4!important;box-shadow:0 0 0 1px #3582c4}
+/* activitypub/assets/css/activitypub-welcome.css */
+.activitypub-welcome-container{background-color:#202020;border-radius:8px;box-shadow:0 1px 3px rgb(255 255 255 / 0.14)}
+.activitypub-progress-circle-content{color:#d4d4d4}
+.activitypub-progress-ring-bg{fill:none;stroke:#f0f0f1}
+.activitypub-progress-ring-circle{fill:none;stroke:#67b3f7}
+.activitypub-welcome-subtitle{color:#a9afb7}
+.activitypub-onboarding-step{border-radius:4px;background-color:#161616}
+.activitypub-onboarding-step:hover{background-color:#161616}
+.dashicons-warning{color:#dba617}
+.step-text p{color:#a9afb7}
+.activitypub-step-completed{background-color:#16151b}
+.activitypub-step-completed:hover{background-color:#1e2b19}
+.activitypub-step-completed .step-icon{color:#58c65f}
+.activitypub-profiles-section{border-top:1px solid #444445}
+.profiles-description{color:#d4d4d4}
+.activitypub-profile-card{background-color:#202020;border:1px solid #4b4a4d;border-radius:4px;box-shadow:0 1px 3px rgb(255 255 255 / 0.14)}
+.profile-card-header{background-color:#161616;border-bottom:1px solid #4b4a4d}
+.extra-field label{color:#a9afb7}
+.extra-field input{background-color:#161616;border:1px solid #474749;border-radius:3px}
+.profile-description{color:#a9afb7}
+.skip-steps-link{color:#67b3f7}
+.skip-steps-link:hover{color:#77bcfa}
+/* activitypub/assets/css/activitypub-post-preview.css */
+main{border:1px solid #4a4a4a;border-radius:4px;background-color:#202020}
+hr{background:transparent;border:0;border-top:1px solid #4a4a4a}
+.sidebar h1{border-radius:4px;background-color:#6364ff;color:#fff}
+.sidebar ul li{color:#ccc}
+.sidebar input[type="search"],.sidebar textarea{background-color:#161616;border:1px solid #4a4a4a;border-radius:4px;color:#c9c9c9}
+.name{color:#ccc}
+.webfinger{color:#ccc}
+main address .name,main address .webfinger{color:#f5f5f5}
+address img,.sidebar .fake-image{border-radius:8px;background-color:#333}
+main .attachments{border-radius:8px}
+main .attachments img{border:0}
+main .tags a{background-color:#161616;border-radius:4px;color:#c9c9c9}
+main .tags a:hover{background-color:#303030}
+main .column-header{border-bottom:1px solid #4a4a4a}

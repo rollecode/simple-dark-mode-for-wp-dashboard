@@ -1,0 +1,34 @@
+/* Links and outline buttons follow the admin colour scheme, lifted for a dark ground */
+#wpbody-content a:not(.button, .button-primary, .page-title-action, .components-button),
+.wp-core-ui .button-link,
+.wp-core-ui .button-secondary,
+.wp-core-ui .button:not(.button-primary),
+.wrap .page-title-action {
+  color: color-mix(in oklab, var(--wp-admin-theme-color, #3858e9) 45%, #fff);
+}
+
+/* The component library sets these at runtime on its own wrappers */
+* {
+  --wp-components-color-foreground: #e9eaec !important;
+  --wp-components-color-foreground-inverted: #1d1f24 !important;
+  --wp-components-color-background: #24262b !important;
+  --wp-components-color-gray-100: #2d2f35 !important;
+  --wp-components-color-gray-200: #36393f !important;
+  --wp-components-color-gray-300: #44474e !important;
+  --wp-components-color-gray-400: #5a5d65 !important;
+  --wp-components-color-gray-600: #9a9da4 !important;
+  --wp-components-color-gray-700: #b5b8bd !important;
+  --wp-components-color-gray-800: #d3d5d9 !important;
+}
+
+/* Dark arrows in native selects */
+.wp-core-ui select,
+select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cpath d='M5 6l5 5 5-5 2 1-7 7-7-7z' fill='%23c9ccd1'/%3E%3C/svg%3E");
+}
+
+/* A preview of the site's own look stays as it is */
+.site-icon-preview,
+.site-icon-preview-tab {
+  color-scheme: light;
+}

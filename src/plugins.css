@@ -1,0 +1,56 @@
+
+/* Advanced Custom Fields */
+.acf-switch .acf-switch-slider,
+.acf-input-prepend,
+.acf-input-append,
+.acf-switch,
+.acf-table tr > td,
+.acf-table tr > thead,
+.acf-tfoot,
+.acf-thead,
+.acf-thead > li,
+.acf-fields.-left > .acf-field::before,
+#acf-field-group-fields .acf-field-list,
+#acf-field-group-fields .acf-field-list-wrap,
+#acf-field-group-fields .acf-field-list .no-fields-message,
+#wpcontent .acf-admin-toolbar {
+  border-color: rgb(255 255 255 / .12) !important;
+  background-color: #1d1f24 !important;
+  box-shadow: none !important;
+  color: #e9eaec !important;
+}
+
+/* Koko Analytics */
+#koko-analytics-admin .date-label,
+#koko-analytics-admin .box {
+  border-color: rgb(255 255 255 / .12) !important;
+  background-color: #24262b !important;
+  color: #e9eaec !important;
+}
+
+#koko-analytics-admin .box-grid {
+  border-color: rgb(255 255 255 / .12) !important;
+}
+
+#koko-analytics-admin .description {
+  color: #b5b8bd !important;
+}
+
+/* Simple History */
+.wp-core-ui .SimpleHistoryLogitem__text > span,
+.wp-core-ui .SimpleHistoryLogitem__text .SimpleHistoryLogitem--logleveltag,
+.wp-core-ui .SimpleHistoryLogitem__text .SimpleHistoryLogitem--logleveltag-notice,
+.wp-core-ui .postbox .SimpleHistoryLogitem,
+.wp-core-ui .SimpleHistoryLogitems__pagination,
+.wp-core-ui .SimpleHistoryLogitems__pagination div,
+.wp-core-ui .SimpleHistoryLogitem--loglevel-info {
+  background-color: #24262b !important;
+}
+
+.wp-core-ui .SimpleHistoryLogitem__text {
+  color: #e9eaec;
+}
+
+.wp-core-ui .SimpleHistoryLogitem::before {
+  background-color: rgb(255 255 255 / .12) !important;
+}
