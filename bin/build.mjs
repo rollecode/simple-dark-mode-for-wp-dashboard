@@ -127,7 +127,7 @@ function text({ L, C, H }) {
 function line(color) {
   const { L, C, H } = color;
   if (color.a < 1 && L < 0.25) {
-    return { white: Math.min(color.a + 0.04, 0.2) };
+    return { white: Math.min(color.a * 0.6 + 0.02, 0.12) };
   }
   if (L < 0.6 || C > 0.1) {
     return null;
@@ -212,8 +212,10 @@ function convert(rule) {
     return [ `${decl.prop}:${value ?? decl.value}${decl.important || decl.prop.startsWith('--') ? '!important' : ''}` ];
   });
 
-  // Design tokens have to beat the same :root rule wherever core prints it
-  return declarations.length ? `${selectors.join(',').replace(/:root/g, ':root:root')}{${declarations.join(';')}}\n` : '';
+  // Design tokens have to beat the same :root rule wherever core prints it, and the editor's provider prints them inline again
+  const tokens = selectors.length === 1 && selectors[0] === ':root' && rule.nodes.every((node) => node.type !== 'decl' || node.prop.startsWith('--'));
+  const target = tokens ? ':root:root,[data-wpds-root-provider]' : selectors.join(',').replace(/:root/g, ':root:root');
+  return declarations.length ? `${target}{${declarations.join(';')}}\n` : '';
 }
 
 function walk(container) {

@@ -13,15 +13,15 @@ summary{color:#67b3f7}
 .activitypub-settings-accordion-trigger:active,.activitypub-settings-accordion-trigger:hover{background:#161616}
 .activitypub-settings-accordion-trigger:focus{color:#ccd4d9;border:none;box-shadow:none;outline-offset:-1px;outline:2px solid #2271b1;background-color:#161616}
 .settings_page_activitypub .plugin-recommendations{border-bottom:none}
-.contextual-help-tabs-wrap .activitypub-block-screenshot img{border:1px solid #474747;border-radius:4px;box-shadow:0 1px 3px rgb(255 255 255 / 0.14)}
+.contextual-help-tabs-wrap .activitypub-block-screenshot img{border:1px solid #474747;border-radius:4px;box-shadow:0 1px 3px rgb(255 255 255 / 0.08)}
 .contextual-help-tabs-wrap .activitypub-block-screenshot figcaption{color:#b8b8b8}
 .contextual-help-tabs-wrap blockquote{border-left:4px solid #3582c4;background-color:#161616}
 .contextual-help-tabs-wrap blockquote cite{color:#b0b8c0}
-.plugin-list .plugin-card{border-radius:4px;box-shadow:0 1px 3px rgb(255 255 255 / 0.14)}
+.plugin-list .plugin-card{border-radius:4px;box-shadow:0 1px 3px rgb(255 255 255 / 0.08)}
 .rtl .contextual-help-tabs-wrap blockquote{border-left:none;border-right:4px solid #3582c4}
 #activitypub-follow-form .highlight{border-color:#3582c4!important;box-shadow:0 0 0 1px #3582c4}
 /* activitypub/assets/css/activitypub-welcome.css */
-.activitypub-welcome-container{background-color:#202020;border-radius:8px;box-shadow:0 1px 3px rgb(255 255 255 / 0.14)}
+.activitypub-welcome-container{background-color:#202020;border-radius:8px;box-shadow:0 1px 3px rgb(255 255 255 / 0.08)}
 .activitypub-progress-circle-content{color:#d4d4d4}
 .activitypub-progress-ring-bg{fill:none;stroke:#f0f0f1}
 .activitypub-progress-ring-circle{fill:none;stroke:#67b3f7}
@@ -35,7 +35,7 @@ summary{color:#67b3f7}
 .activitypub-step-completed .step-icon{color:#58c65f}
 .activitypub-profiles-section{border-top:1px solid #444445}
 .profiles-description{color:#d4d4d4}
-.activitypub-profile-card{background-color:#202020;border:1px solid #4b4a4d;border-radius:4px;box-shadow:0 1px 3px rgb(255 255 255 / 0.14)}
+.activitypub-profile-card{background-color:#202020;border:1px solid #4b4a4d;border-radius:4px;box-shadow:0 1px 3px rgb(255 255 255 / 0.08)}
 .profile-card-header{background-color:#161616;border-bottom:1px solid #4b4a4d}
 .extra-field label{color:#a9afb7}
 .extra-field input{background-color:#161616;border:1px solid #868687;border-radius:3px}

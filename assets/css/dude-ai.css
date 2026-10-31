@@ -1,6 +1,6 @@
 /* dude-ai/assets/admin.css */
 .dude-ai-lead{color:var(--dude-ai-muted)}
-.dude-ai-panel{background:#202020;border:1px solid var(--dude-ai-border);border-radius:8px;box-shadow:0 1px 1px rgb(255 255 255 / 0.08)}
+.dude-ai-panel{background:#202020;border:1px solid var(--dude-ai-border);border-radius:8px;box-shadow:0 1px 1px rgb(255 255 255 / 0.044)}
 .dude-ai-section-lead{color:var(--dude-ai-muted)}
 .dude-ai-muted{color:var(--dude-ai-muted)}
 .dude-ai-step__mark{background:#161616;border-radius:50%;color:#b0b8c0}
@@ -60,7 +60,7 @@
 .dude-ai-status--error{background:#16151b;color:#ff7f76}
 .dude-ai-live{color:#72cd75}
 .dude-ai-live.is-paused{color:var(--dude-ai-muted)}
-.dude-ai-log{background:#202020;border:1px solid var(--dude-ai-border);border-radius:8px;box-shadow:0 1px 1px rgb(255 255 255 / 0.08)}
+.dude-ai-log{background:#202020;border:1px solid var(--dude-ai-border);border-radius:8px;box-shadow:0 1px 1px rgb(255 255 255 / 0.044)}
 .dude-ai-log .dude-ai-log__table{border:0;border-radius:0;box-shadow:none}
 .dude-ai-log__table thead th{background:#161616}
 .dude-ai-log__table tbody tr:nth-child(odd){background:#161616}
