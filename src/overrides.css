@@ -32,3 +32,14 @@ select {
 .site-icon-preview-tab {
   color-scheme: light;
 }
+
+/* The notch beside the current menu item is drawn in the page's colour */
+ul#adminmenu a.wp-has-current-submenu::after,
+ul#adminmenu > li.current > a.current::after {
+  border-right-color: #161616;
+}
+
+.rtl ul#adminmenu a.wp-has-current-submenu::after,
+.rtl ul#adminmenu > li.current > a.current::after {
+  border-left-color: #161616;
+}
