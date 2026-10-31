@@ -134,7 +134,18 @@ function line(color) {
   return C > 0.02 ? { L: 0.42, C: Math.min(C, 0.06), H } : neutral(0.38 + (1 - L) * 0.18, C);
 }
 
-const MAP = { surface, text, line };
+// Fields and checkboxes are outlined in near-black on white; on a dark ground the outline turns light
+const FIELD = /\binput\b|select\b|textarea|checkbox|radio|__input/;
+
+function fieldLine(color) {
+  const { L, C } = color;
+  if (color.a === 1 && C <= 0.05 && (L < 0.4 || (L >= 0.55 && L < 0.9))) {
+    return neutral(0.62, C);
+  }
+  return line(color);
+}
+
+const MAP = { surface, text, line, fieldLine };
 
 function darken(value, role) {
   let changed = false;
@@ -181,8 +192,10 @@ function convert(rule) {
     return parsed && toOklch(parsed).C > 0.1;
   }));
 
+  const isField = selectors.some((selector) => FIELD.test(selector));
+
   const declarations = rule.nodes.filter((node) => node.type === 'decl').flatMap((decl) => {
-    const role = roleOf(decl);
+    const role = 'line' === roleOf(decl) && isField ? 'fieldLine' : roleOf(decl);
     if (!role) {
       return [];
     }
