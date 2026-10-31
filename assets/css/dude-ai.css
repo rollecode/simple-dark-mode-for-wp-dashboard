@@ -3,11 +3,11 @@
 .dude-ai-panel{background:#202020;border:1px solid var(--dude-ai-border);border-radius:8px;box-shadow:0 1px 1px rgb(255 255 255 / 0.08)}
 .dude-ai-section-lead{color:var(--dude-ai-muted)}
 .dude-ai-muted{color:var(--dude-ai-muted)}
-.dude-ai-step + .dude-ai-step{border-top:1px solid #444445}
 .dude-ai-step__mark{background:#161616;border-radius:50%;color:#b0b8c0}
-.dude-ai-step--done .dude-ai-step__mark{background:#00a32a;color:#fff}
+.dude-ai-step__check{background:#00a32a;border-radius:50%;color:#fff}
+.dude-ai-step--current .dude-ai-step__mark{background:var(--dude-ai-accent);color:#fff}
 .dude-ai-step--error .dude-ai-step__mark{background:#dba617;color:#fff}
-.dude-ai-setup__recheck{border-top:1px solid #444445}
+.dude-ai-step__next{color:var(--dude-ai-accent)}
 .dude-ai-pill{border:1px solid transparent;border-radius:999px}
 .dude-ai-pill--success{background:#1f2a21;border-color:#35563b;color:#72cd75}
 .dude-ai-pill--warning{background:#292719;border-color:#f2d675;color:#d4a04f}
