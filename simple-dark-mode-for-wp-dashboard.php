@@ -27,7 +27,7 @@ function simple_dark_mode_enqueue() {
     'simple-dark-mode',
     plugins_url( 'assets/css/dark-mode.css', __FILE__ ),
     [],
-    SIMPLE_DARK_MODE_VERSION
+    SIMPLE_DARK_MODE_VERSION . '.' . filemtime( __DIR__ . '/assets/css/dark-mode.css' )
   );
 
   $plugins = [
@@ -41,7 +41,7 @@ function simple_dark_mode_enqueue() {
       'simple-dark-mode-' . $plugin,
       plugins_url( 'assets/css/' . $plugin . '.css', __FILE__ ),
       [ 'simple-dark-mode' ],
-      SIMPLE_DARK_MODE_VERSION
+      SIMPLE_DARK_MODE_VERSION . '.' . filemtime( __DIR__ . '/assets/css/' . $plugin . '.css' )
     );
   }
 }
