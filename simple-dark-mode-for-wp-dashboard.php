@@ -32,6 +32,7 @@ function simple_dark_mode_enqueue() {
 
   $plugins = [
     'activitypub'   => defined( 'ACTIVITYPUB_PLUGIN_VERSION' ),
+    'dude-ai'       => defined( 'Dude_AI\VERSION' ),
     'wordpress-seo' => defined( 'WPSEO_VERSION' ),
   ];
 

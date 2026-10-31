@@ -54,3 +54,9 @@
 .wp-core-ui .SimpleHistoryLogitem::before {
   background-color: rgb(255 255 255 / .12) !important;
 }
+
+/* Dude AI keeps its greys in its own variables */
+.dude-ai {
+  --dude-ai-border: #3c3c3f;
+  --dude-ai-muted: #a7aaad;
+}

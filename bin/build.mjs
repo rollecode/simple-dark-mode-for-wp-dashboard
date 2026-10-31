@@ -30,6 +30,7 @@ const SOURCES = [
 // Plugins with their own admin screens, loaded only when they are active
 const PLUGINS = {
   'activitypub': [ 'activitypub/assets/css/activitypub-admin.css', 'activitypub/assets/css/activitypub-welcome.css', 'activitypub/assets/css/activitypub-post-preview.css' ],
+  'dude-ai': [ 'dude-ai/assets/admin.css' ],
   'wordpress-seo': [ 'tailwind', 'admin-global', 'dashboard', 'general-page', 'new-settings', 'academy', 'support', 'plans', 'redirects', 'metabox', 'modal', 'yst_plugin_tools', 'yst_seo_score' ].map((name) => `wordpress-seo/css/dist/${name}-${process.env.YOAST_VERSION}.css`),
 };
 

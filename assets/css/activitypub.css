@@ -38,7 +38,7 @@ summary{color:#67b3f7}
 .activitypub-profile-card{background-color:#202020;border:1px solid #4b4a4d;border-radius:4px;box-shadow:0 1px 3px rgb(255 255 255 / 0.14)}
 .profile-card-header{background-color:#161616;border-bottom:1px solid #4b4a4d}
 .extra-field label{color:#a9afb7}
-.extra-field input{background-color:#161616;border:1px solid #474749;border-radius:3px}
+.extra-field input{background-color:#161616;border:1px solid #868687;border-radius:3px}
 .profile-description{color:#a9afb7}
 .skip-steps-link{color:#67b3f7}
 .skip-steps-link:hover{color:#77bcfa}
@@ -47,7 +47,7 @@ main{border:1px solid #4a4a4a;border-radius:4px;background-color:#202020}
 hr{background:transparent;border:0;border-top:1px solid #4a4a4a}
 .sidebar h1{border-radius:4px;background-color:#6364ff;color:#fff}
 .sidebar ul li{color:#ccc}
-.sidebar input[type="search"],.sidebar textarea{background-color:#161616;border:1px solid #4a4a4a;border-radius:4px;color:#c9c9c9}
+.sidebar input[type="search"],.sidebar textarea{background-color:#161616;border:1px solid #868686;border-radius:4px;color:#c9c9c9}
 .name{color:#ccc}
 .webfinger{color:#ccc}
 main address .name,main address .webfinger{color:#f5f5f5}

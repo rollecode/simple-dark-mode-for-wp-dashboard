@@ -13,6 +13,7 @@ Dark mode for wp-admin, for all users. To use, just install and activate. There 
 
 - Yoast SEO
 - ActivityPub
+- Dude AI
 - Advanced Custom Fields
 - Koko Analytics
 - Simple History

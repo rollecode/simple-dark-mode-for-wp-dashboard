@@ -30,6 +30,7 @@ Activate and the whole of wp-admin is dark, including the block editor's and sit
 = 2.0.0rc2 =
 * Fix dark checkbox and field outlines
 * Fix light notch beside the current menu item
+* Dark Dude AI screens
 
 = 2.0.0rc =
 * Rewritten: the styles are now built from WordPress' own stylesheets.

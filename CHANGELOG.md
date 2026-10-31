@@ -2,6 +2,7 @@
 
 * Fix dark checkbox and field outlines
 * Fix light notch beside the current menu item
+* Add dark Dude AI screens
 
 ### 2.0.0rc: 2026-10-30
 
