@@ -3,7 +3,7 @@
  * Plugin Name: Simple Dark Mode for WP Dashboard
  * Plugin URI: https://github.com/rollecode/simple-dark-mode-for-wp-dashboard
  * Description: The simplest way to make your WordPress dashboard dark. No settings: activate and enjoy the darkness.
- * Version: 2.0.0rc
+ * Version: 2.0.0rc2
  * Requires at least: 7.0
  * Requires PHP: 8.0
  * Author: Roni Laukkarinen
@@ -17,7 +17,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-const SIMPLE_DARK_MODE_VERSION = '2.0.0rc';
+const SIMPLE_DARK_MODE_VERSION = '2.0.0rc2';
 
 /**
  * Add the dark styles after everything else, so they win on equal selectors.

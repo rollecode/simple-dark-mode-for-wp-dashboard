@@ -4,7 +4,7 @@ Tags: dark mode, night mode, dark, admin, dashboard
 Requires at least: 7.0
 Tested up to: 7.1
 Requires PHP: 8.0
-Stable tag: 2.0.0rc
+Stable tag: 2.0.0rc2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -26,6 +26,10 @@ Activate and the whole of wp-admin is dark, including the block editor's and sit
 3. Done. Enjoy the dark!
 
 == Changelog ==
+
+= 2.0.0rc2 =
+* Fix dark checkbox and field outlines
+* Fix light notch beside the current menu item
 
 = 2.0.0rc =
 * Rewritten: the styles are now built from WordPress' own stylesheets.

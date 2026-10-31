@@ -1,3 +1,8 @@
+### 2.0.0rc2: 2026-11-01
+
+* Fix dark checkbox and field outlines
+* Fix light notch beside the current menu item
+
 ### 2.0.0rc: 2026-10-30
 
 * Change styles to one built from WordPress' own stylesheets

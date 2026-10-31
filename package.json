@@ -1,6 +1,6 @@
 {
   "name": "simple-dark-mode-for-wp-dashboard",
-  "version": "2.0.0-rc",
+  "version": "2.0.0-rc2",
   "private": true,
   "type": "module",
   "description": "The simplest way to make your WordPress dashboard dark.",
