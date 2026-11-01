@@ -6,7 +6,7 @@
  * Version: 2.0.0rc2
  * Requires at least: 7.0
  * Requires PHP: 8.0
- * Author: Roni Laukkarinen
+ * Author: Rolle Laukkarinen
  * Author URI: https://github.com/rollecode
  * License: GPL-3.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html

@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "description": "The simplest way to make your WordPress dashboard dark.",
-  "author": "Roni Laukkarinen (roni@dude.fi)",
+  "author": "Rolle Laukkarinen (rolle@dude.fi)",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "build": "node bin/build.mjs"
