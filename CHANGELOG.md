@@ -7,6 +7,7 @@
 * Add dark Object Cache Pro screens
 * Fix light Yoast SEO score bar
 * Fix light default Gravatar images
+* Fix white pressed buttons in the editor
 
 ### 2.0.0rc: 2026-10-30
 
