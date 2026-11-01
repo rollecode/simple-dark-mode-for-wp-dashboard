@@ -1,5 +1,5 @@
 === Simple Dark Mode for WP Dashboard ===
-Contributors: ronilaukkarinen
+Contributors: rollecode
 Tags: dark mode, night mode, dark, admin, dashboard
 Requires at least: 7.0
 Tested up to: 7.1
