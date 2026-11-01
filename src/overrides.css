@@ -21,6 +21,32 @@
   --wp-components-color-gray-800: #d3d5d9 !important;
 }
 
+/* A select's open list can stay light in the browser while its options inherit light text */
+select,
+option,
+optgroup {
+  background-color: #202020;
+  color: #d4d4d4;
+}
+
+/* Legacy widget forms. Written without the block prefix, which would copy this file into the canvas */
+[class*="legacy-widget__edit-form"],
+[class*="legacy-widget__edit-form"] .widget-inside.widget-inside {
+  background-color: #202020;
+}
+
+[class*="legacy-widget__edit-form"] .widget-inside.widget-inside :is(label, input, a, select),
+[class*="legacy-widget__edit-form-title"] {
+  background-color: #202020 !important;
+  color: #d4d4d4 !important;
+}
+
+/* Core hides the focused text in Firefox and draws it as a dark shadow */
+.wp-core-ui select:-moz-focusring {
+  color: #d4d4d4;
+  text-shadow: none;
+}
+
 /* Dark arrows in native selects */
 .wp-core-ui select,
 select {

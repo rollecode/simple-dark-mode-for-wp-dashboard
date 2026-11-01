@@ -8,6 +8,7 @@
 * Fix light Yoast SEO score bar
 * Fix light default Gravatar images
 * Fix white pressed buttons in the editor
+* Fix light select lists
 
 ### 2.0.0rc: 2026-10-30
 
