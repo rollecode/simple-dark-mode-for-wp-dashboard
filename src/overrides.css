@@ -93,3 +93,23 @@ img[src*="gravatar.com/avatar/?"] {
   --wp-components-color-foreground: #44474e !important;
   --wp-components-color-foreground-inverted: #fff !important;
 }
+
+/* The About pages keep their colours in their own variables */
+.about__container {
+  --subtle-background: #24262b;
+  --text: #e9eaec;
+  --accent-1: #a9b8f7;
+  --accent-2: #a9b8f7;
+  --accent-3: #36393f;
+  --nav-background: #24262b;
+  --nav-current: #a9b8f7;
+}
+
+.about__container .has-accent-background-color,
+.about__header-navigation :is(.nav-tab, .nav-tab-active):is(:hover, :active) {
+  background-color: #3858e9;
+}
+
+.about__image svg [fill]:not([fill="none"]) {
+  fill: #e9eaec;
+}
