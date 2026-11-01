@@ -2974,6 +2974,11 @@ ul#adminmenu > li.current > a.current::after {
   color: #fff;
 }
 
+/* Gravatar's default for an account with no email is a bright silhouette */
+img[src*="gravatar.com/avatar/?"] {
+  filter: brightness(.35);
+}
+
 
 /* Advanced Custom Fields */
 .acf-switch .acf-switch-slider,
@@ -3052,4 +3057,14 @@ ul#adminmenu > li.current > a.current::after {
 .wincher-performance-report-alert {
   background-color: #302600 !important;
   color: #f69a6e !important;
+}
+
+/* Yoast's score colours sit in generated class names. Only a row's link tells which is the grey one,
+   and the bar's parts follow the same order */
+#yoast-seo-dashboard-widget .assessments__item:has(a[href*="seo_filter=na"]) .assessments__item-bullet,
+#yoast-seo-dashboard-widget .seo-assessment:has(.assessments__item:nth-child(1) a[href*="seo_filter=na"]) .progress__part:nth-child(1),
+#yoast-seo-dashboard-widget .seo-assessment:has(.assessments__item:nth-child(2) a[href*="seo_filter=na"]) .progress__part:nth-child(2),
+#yoast-seo-dashboard-widget .seo-assessment:has(.assessments__item:nth-child(3) a[href*="seo_filter=na"]) .progress__part:nth-child(3),
+#yoast-seo-dashboard-widget .seo-assessment:has(.assessments__item:nth-child(4) a[href*="seo_filter=na"]) .progress__part:nth-child(4) {
+  background-color: #5a5d65 !important;
 }

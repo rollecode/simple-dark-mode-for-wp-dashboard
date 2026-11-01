@@ -5,6 +5,8 @@
 * Add dark Dude AI screens
 * Add dark ActivityPub dashboard widget
 * Add dark Object Cache Pro screens
+* Fix light Yoast SEO score bar
+* Fix light default Gravatar images
 
 ### 2.0.0rc: 2026-10-30
 

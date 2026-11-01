@@ -56,3 +56,8 @@ ul#adminmenu > li.current > a.current::after {
 [role="tablist"] > [role="tab"][aria-selected="true"] {
   color: #fff;
 }
+
+/* Gravatar's default for an account with no email is a bright silhouette */
+img[src*="gravatar.com/avatar/?"] {
+  filter: brightness(.35);
+}
