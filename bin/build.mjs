@@ -29,8 +29,9 @@ const SOURCES = [
 // Rules for the content of the editor canvas, not for its frame
 // Plugins with their own admin screens, loaded only when they are active
 const PLUGINS = {
-  'activitypub': [ 'activitypub/assets/css/activitypub-admin.css', 'activitypub/assets/css/activitypub-welcome.css', 'activitypub/assets/css/activitypub-post-preview.css' ],
+  'activitypub': [ 'activitypub/assets/css/activitypub-admin.css', 'activitypub/assets/css/activitypub-welcome.css', 'activitypub/assets/css/activitypub-post-preview.css', 'activitypub/build/dashboard-stats/style-index.css' ],
   'dude-ai': [ 'dude-ai/assets/admin.css' ],
+  'object-cache-pro': [ 'object-cache-pro/resources/css/widget.css', 'object-cache-pro/resources/css/settings.css' ],
   'wordpress-seo': [ 'tailwind', 'admin-global', 'dashboard', 'general-page', 'new-settings', 'academy', 'support', 'plans', 'redirects', 'metabox', 'modal', 'yst_plugin_tools', 'yst_seo_score' ].map((name) => `wordpress-seo/css/dist/${name}-${process.env.YOAST_VERSION}.css`),
 };
 
@@ -245,7 +246,12 @@ writeFileSync(join(root, 'assets/css/dark-mode.css'), header + generated + handw
 
 if (plugins) {
   for (const [ slug, sources ] of Object.entries(PLUGINS)) {
-    writeFileSync(join(root, `assets/css/${slug}.css`), generate(plugins, sources));
+    const css = generate(plugins, sources);
+
+    // A plugin missing from this folder keeps the file it has
+    if (sources.some((source) => existsSync(join(plugins, source)))) {
+      writeFileSync(join(root, `assets/css/${slug}.css`), css);
+    }
   }
 }
 console.log(`${(generated.length / 1024).toFixed(0)} KB generated`);

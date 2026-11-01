@@ -3036,3 +3036,20 @@ ul#adminmenu > li.current > a.current::after {
   --dude-ai-border: #3c3c3f;
   --dude-ai-muted: #a7aaad;
 }
+
+/* ActivityPub draws its chart grid with SVG attributes */
+.activitypub-line-chart line {
+  stroke: rgb(255 255 255 / .12);
+}
+
+/* Object Cache Pro sets its chart titles in the chart options */
+.objectcache\:chart .apexcharts-title-text,
+.objectcache\:chart .apexcharts-subtitle-text {
+  fill: #b5b8bd;
+}
+
+/* Yoast sets its Wincher notice in generated class names, added after this file */
+.wincher-performance-report-alert {
+  background-color: #302600 !important;
+  color: #f69a6e !important;
+}

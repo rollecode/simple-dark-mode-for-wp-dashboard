@@ -3,6 +3,8 @@
 * Fix dark checkbox and field outlines
 * Fix light notch beside the current menu item
 * Add dark Dude AI screens
+* Add dark ActivityPub dashboard widget
+* Add dark Object Cache Pro screens
 
 ### 2.0.0rc: 2026-10-30
 

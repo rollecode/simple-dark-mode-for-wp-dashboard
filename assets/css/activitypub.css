@@ -57,3 +57,23 @@ main .attachments img{border:0}
 main .tags a{background-color:#161616;border-radius:4px;color:#c9c9c9}
 main .tags a:hover{background-color:#303030}
 main .column-header{border-bottom:1px solid #4a4a4a}
+/* activitypub/build/dashboard-stats/style-index.css */
+.activitypub-stats-widget h3{color:var(--wp-admin--color--text,#ccd4d9)}
+.activitypub-stats-empty{color:var(--wp-admin--color--text-secondary,#a9afb7)}
+.activitypub-stats-highlights li a:before,.activitypub-stats-highlights li>span:not(.stat-change):before{color:var(--wp-admin--color--text-secondary,#a9afb7)}
+.activitypub-stats-highlights .stat-change{color:var(--wp-admin--color--text-secondary,#a9afb7)}
+.activitypub-stats-highlights .stat-change.positive{color:var(--wp-admin--color--success,#46c953)}
+.activitypub-stats-highlights .stat-change.negative{color:var(--wp-admin--color--error,#ff6e68)}
+.activitypub-stats-sub{background:var(--wp-admin--color--body-background,#161616);border-top:1px solid var(--wp-admin--color--border,#444445)}
+.activitypub-stats-sub,.activitypub-stats-sub h3{color:var(--wp-admin--color--text-secondary,#b0b8c0)}
+.activitypub-stats-chart{border-top:1px solid var(--wp-admin--color--border,#444445)}
+.activitypub-chart-container{background:var(--wp-admin--color--body-background,#161616);border-bottom:1px solid var(--wp-admin--color--border,#444445)}
+.activitypub-line-chart .chart-label{fill:var(--wp-admin--color--text-secondary,#a9afb7)}
+.activitypub-chart-legend{border-top:1px solid var(--wp-admin--color--border,#444445)}
+.activitypub-legend-item{color:var(--wp-admin--color--text-secondary,#b0b8c0)}
+.activitypub-legend-item .legend-color{border-radius:1px}
+.activitypub-stats-multiplicator{border-top:1px solid var(--wp-admin--color--border,#444445)}
+.activitypub-stats-multiplicator p{color:var(--wp-admin--color--text-secondary,#b0b8c0)}
+.activitypub-stats-top-posts{border-top:1px solid var(--wp-admin--color--border,#444445)}
+.activitypub-stats-top-posts li{color:var(--wp-admin--color--text-secondary,#b0b8c0)}
+.activitypub-stats-top-posts .engagement-count{color:var(--wp-admin--color--text-secondary,#a9afb7)}

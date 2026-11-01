@@ -1,0 +1,32 @@
+/* object-cache-pro/resources/css/widget.css */
+#dashboard_objectcache .handle-settings,#objectcache_slowlog .handle-reset,#objectcache_commandstats .handle-reset{color:#a7abb1;border:0;background:none}
+#dashboard_objectcache .handle-settings .settings-indicator::before,#objectcache_slowlog .handle-reset .reset-indicator::before,#objectcache_commandstats .handle-reset .reset-indicator::before{color:inherit}
+.objectcache\:overview-widget li .dashicons{color:#a5b0ba}
+.objectcache\:widget .success{color:#58c65f}
+.objectcache\:widget .error{color:#ff7b51}
+.objectcache\:widget .alert{color:#3ccb37}
+.objectcache\:widget .warning{color:#e1a948}
+.objectcache\:widget-sub{color:#acb5c0;background:#161616;border-top:1px solid #454545}
+.objectcache\:widget-charts{background:#161616}
+.objectcache\:widget-charts .objectcache\:chart{border-top:1px solid #454545}
+.objectcache\:chart .apexcharts-tooltip{background:rgb(33 31 38 / 0.75)!important;box-shadow:none;border-radius:0;border:none!important}
+/* object-cache-pro/resources/css/settings.css */
+.objectcache\:navbar{background:#202020;border-bottom:1px solid #4a484d}
+.objectcache\:navbar h2 i{color:#babbbc}
+.objectcache\:navbar .navbar-tab{color:inherit}
+.objectcache\:navbar .navbar-tab.is-active{border-bottom-style:solid;border-bottom-width:3px;border-bottom-color:var(--wp-admin-theme-color, #0071a4)}
+.objectcache\:navbar .navbar-tab:hover{color:color-mix(in oklab,var(--wp-admin-theme-color, #00a0d2) 45%,#fff)}
+.objectcache\:navbar .navbar-tab:focus{box-shadow:none}
+.objectcache\:help-tip:before{color:#a9afb7}
+.postbox[id*="objectcache_metric_"] .hndle span span{color:#a7abb1}
+.objectcache\:chart .apexcharts-xaxis-label,.objectcache\:chart .apexcharts-yaxis-label{fill:#a9afb7}
+.objectcache\:config .form-table label .description{color:#a9afb7}
+.objectcache\:flushlog-widget summary code{background:#202020}
+.objectcache\:flushlog-widget details ul{border-top:1px solid #444445;border-bottom:1px solid #444445;background:#161616}
+.objectcache\:flushlog-widget details ul code{background:transparent}
+.objectcache\:flushlog-widget details ul code span{color:color-mix(in oklab,var(--wp-admin-theme-color, #2271b1) 45%,#fff)}
+.objectcache\:health-widget li a{color:#bac2cb}
+.form-table .tagify{background-color:#202020;border:1px solid #545257;border-radius:4px}
+.form-table .tagify--focus{box-shadow:0 0 0 1px #2271b1}
+.tagify__tag[readonly] > div::before,.tagify__tag[readonly]:focus > div::before{box-shadow:0 0 0 1.1em #454545 inset;box-shadow:0 0 0 var(--tag-inset-shadow-size) #454545 inset}
+.form-table .tagify__tag__removeBtn:hover{color:inherit}

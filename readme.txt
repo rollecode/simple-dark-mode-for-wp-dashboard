@@ -17,7 +17,7 @@ Activate and the whole of wp-admin is dark, including the block editor's and sit
 * The dark styles are built from WordPress' own stylesheets, so they cover the admin screen by screen.
 * Your admin colour scheme stays yours.
 * The site's front end stays as it is, and so does the editor canvas: what you write looks as your theme makes it look.
-* Yoast SEO and ActivityPub get their own dark styles when they are active. Advanced Custom Fields, Koko Analytics and Simple History are covered too.
+* Yoast SEO, ActivityPub and Object Cache Pro get their own dark styles when they are active. Advanced Custom Fields, Koko Analytics and Simple History are covered too.
 
 == Installation ==
 
@@ -35,5 +35,5 @@ Activate and the whole of wp-admin is dark, including the block editor's and sit
 = 2.0.0rc =
 * Rewritten: the styles are now built from WordPress' own stylesheets.
 * Dark editor interface for WordPress 7.
-* Dark Yoast SEO and ActivityPub screens.
+* Dark Yoast SEO, ActivityPub and Object Cache Pro screens.
 * The editor canvas is left to your theme.
